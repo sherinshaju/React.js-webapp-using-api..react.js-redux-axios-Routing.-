@@ -39,12 +39,12 @@ class Product extends Component {
 
                     <ul className="social">
                       <li>
-                        {product.fav === true ? (
-                          <a data-tip="Add to Cart text-danger">
+                        {product.isCart === false ? (
+                          <a data-tip="Add to Cart text-danger" onClick={() =>this.removeBtn(product)}  >
                             <i className="fa fa-heart text-danger" />
                           </a>
                         ) : (
-                          <a data-tip="Add to Cart">
+                          <a data-tip="Add to Cart" onClick={() => this.AddCart(product)}>
                             <i className="fa fa-heart" />
                           </a>
                         )}
