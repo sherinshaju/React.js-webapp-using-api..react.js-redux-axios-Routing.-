@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,4 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # React.js-webapp-using-api..react.js-redux-axios-Routing.-
+=======
+>>>>>>> c096817ab3aa41ee7d1c963cf08b09045e7d4ecf
 # React--Redux------filter-add-edit-delete
